@@ -6,7 +6,7 @@ public class Cliente {
 
     private int cod;
     private String nome;
-    private String numero;
+    private String fone;
 
     public Cliente(){}
 
@@ -14,10 +14,10 @@ public class Cliente {
         this.cod = cod;
     }
 
-    public Cliente(int cod, String nome, String numero) {
+    public Cliente(int cod, String nome, String fone) {
         this.cod = cod;
         this.nome = nome;
-        this.numero = numero;
+        this.fone = fone;
     }
 
     public int getCod() {
@@ -36,12 +36,12 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getNumero() {
-        return numero;
+    public String getFone() {
+        return fone;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
+    public void setFone(String fone) {
+        this.fone = fone;
     }
 
     @Override
@@ -70,7 +70,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" + "cod=" + cod + ", nome=" + nome + ", numero=" + numero + '}';
+        return "Cliente{" + "cod=" + cod + ", nome=" + nome + ", fone=" + fone + '}';
     }
     
    
